@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "glxDHXAi3Jg=",
+  "success": true,
+  "projectFilePath": "/home/jakob-hjort/Documents/Skole/ko-app/backendsimpelt/simpeltkoapi/simpeltkoapi.csproj",
+  "expectedPackageFiles": [
+    "/home/jakob-hjort/.nuget/packages/microsoft.aspnetcore.openapi/9.0.4/microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
+    "/home/jakob-hjort/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
