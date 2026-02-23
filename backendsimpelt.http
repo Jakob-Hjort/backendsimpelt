@@ -1,0 +1,6 @@
+@backendsimpelt_HostAddress = http://localhost:5185
+
+GET {{backendsimpelt_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
