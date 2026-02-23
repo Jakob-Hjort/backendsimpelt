@@ -2,7 +2,8 @@ namespace GetEFWorking.Models;
 
 public class Student : User
 {
-	public int StudentId { get; set; }
+
+	public List<QueueEntry> QueueEntries {get; set;} = [];
 
 
 }

@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/home/jon/Programming/C#/backendsimpelt/GetEFWorking/GetEFWorking.csproj": {}
+    "/home/jakob-hjort/Documents/Skole/ko-app/backendsimpelt/GetEFWorking/GetEFWorking.csproj": {}
   },
   "projects": {
-    "/home/jon/Programming/C#/backendsimpelt/GetEFWorking/GetEFWorking.csproj": {
+    "/home/jakob-hjort/Documents/Skole/ko-app/backendsimpelt/GetEFWorking/GetEFWorking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jon/Programming/C#/backendsimpelt/GetEFWorking/GetEFWorking.csproj",
+        "projectUniqueName": "/home/jakob-hjort/Documents/Skole/ko-app/backendsimpelt/GetEFWorking/GetEFWorking.csproj",
         "projectName": "GetEFWorking",
-        "projectPath": "/home/jon/Programming/C#/backendsimpelt/GetEFWorking/GetEFWorking.csproj",
-        "packagesPath": "/home/jon/.nuget/packages/",
-        "outputPath": "/home/jon/Programming/C#/backendsimpelt/GetEFWorking/obj/",
+        "projectPath": "/home/jakob-hjort/Documents/Skole/ko-app/backendsimpelt/GetEFWorking/GetEFWorking.csproj",
+        "packagesPath": "/home/jakob-hjort/.nuget/packages/",
+        "outputPath": "/home/jakob-hjort/Documents/Skole/ko-app/backendsimpelt/GetEFWorking/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jon/.nuget/NuGet/NuGet.Config"
+          "/home/jakob-hjort/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,6 +76,10 @@
             "NSwag.AspNetCore": {
               "target": "Package",
               "version": "[14.6.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[10.1.4, )"
             }
           },
           "imports": [
@@ -96,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/jon/.local/share/mise/installs/dotnet/10.0.102/sdk/10.0.102/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

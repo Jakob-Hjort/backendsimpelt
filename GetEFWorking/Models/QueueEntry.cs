@@ -2,11 +2,17 @@ namespace GetEFWorking.Models;
 
 public class QueueEntry
 {
-	public int Id { get; set; }
+    public int Id { get; set; }
 
-	public int TeacherId { get; set; }
+    public int QueueId { get; set; }
+    public Queue Queue { get; set; } = null!;
 
-	public int StudentId { get; set; }
+    public Guid StudentId { get; set; }
+    public Student Student { get; set; } = null!;
 
-	public int QueueId { get; set; }
+    // valgfri: hvilken lærer håndterer entry
+    public Guid? TeacherId { get; set; }
+    public Teacher? Teacher { get; set; }
+
+    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 }
